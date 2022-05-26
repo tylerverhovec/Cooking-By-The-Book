@@ -17,6 +17,27 @@ key_pickUp = keyboard_check_pressed(ord("E"));
 hsp = (key_left + key_right) * moveSpeed;
 vsp = (key_up + key_down) * moveSpeed;
 
-//Apply movement
-x = x + hsp;
-y = y + vsp;
+//Collide and Move
+if (place_meeting(x+hsp, y, obj_blocker))
+{
+	while (abs(hsp) > 0.1)
+	{
+		hsp *= 0.5;
+		if (!place_meeting(x + hsp,y, obj_blocker)) x += hsp;
+	}
+	hsp = 0;
+}
+x += hsp;
+
+if (place_meeting(x, y + vsp, obj_blocker))
+{
+	while (abs(vsp) > 0.1)
+	{
+		vsp *= 0.5;
+		if (!place_meeting(x,y + vsp, obj_blocker)) y += vsp;
+	}
+	vsp = 0;
+}
+y += vsp;
+
+
