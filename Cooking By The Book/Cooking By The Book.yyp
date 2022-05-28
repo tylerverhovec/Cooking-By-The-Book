@@ -1,8 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"fnt_Text","path":"fonts/fnt_Text/fnt_Text.yy",},"order":0,},
     {"id":{"name":"rm_Tutorial1","path":"rooms/rm_Tutorial1/rm_Tutorial1.yy",},"order":0,},
     {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},"order":0,},
     {"id":{"name":"spr_MovementControls","path":"sprites/spr_MovementControls/spr_MovementControls.yy",},"order":0,},
+    {"id":{"name":"spr_LookControlsText","path":"sprites/spr_LookControlsText/spr_LookControlsText.yy",},"order":3,},
+    {"id":{"name":"spr_MoveControlsText","path":"sprites/spr_MoveControlsText/spr_MoveControlsText.yy",},"order":2,},
     {"id":{"name":"rm_TestRoom","path":"rooms/rm_TestRoom/rm_TestRoom.yy",},"order":1,},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":0,},
     {"id":{"name":"spr_FinalBossDoor","path":"sprites/spr_FinalBossDoor/spr_FinalBossDoor.yy",},"order":2,},
