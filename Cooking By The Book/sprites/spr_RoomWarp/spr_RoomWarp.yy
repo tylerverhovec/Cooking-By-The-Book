@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a395f706-e794-4087-93fc-0659454f3b5f","path":"sprites/spr_blocker/spr_blocker.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a395f706-e794-4087-93fc-0659454f3b5f","path":"sprites/spr_blocker/spr_blocker.yy",},"LayerId":{"name":"8392c2e7-83fb-4dda-81b3-415616325433","path":"sprites/spr_blocker/spr_blocker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_blocker","path":"sprites/spr_blocker/spr_blocker.yy",},"resourceVersion":"1.0","name":"a395f706-e794-4087-93fc-0659454f3b5f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"07d9d58d-1364-4e6d-ab96-a6e6fcf0dddc","path":"sprites/spr_RoomWarp/spr_RoomWarp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"07d9d58d-1364-4e6d-ab96-a6e6fcf0dddc","path":"sprites/spr_RoomWarp/spr_RoomWarp.yy",},"LayerId":{"name":"8e46a5d1-e17f-4059-bbcc-8b825a12a10f","path":"sprites/spr_RoomWarp/spr_RoomWarp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_RoomWarp","path":"sprites/spr_RoomWarp/spr_RoomWarp.yy",},"resourceVersion":"1.0","name":"07d9d58d-1364-4e6d-ab96-a6e6fcf0dddc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_blocker","path":"sprites/spr_blocker/spr_blocker.yy",},
+    "spriteId": {"name":"spr_RoomWarp","path":"sprites/spr_RoomWarp/spr_RoomWarp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7eca6a9c-bf94-4e6f-a4ea-6db622c2883b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a395f706-e794-4087-93fc-0659454f3b5f","path":"sprites/spr_blocker/spr_blocker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d3f722d0-5b03-40ac-920b-ae16a0702629","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"07d9d58d-1364-4e6d-ab96-a6e6fcf0dddc","path":"sprites/spr_RoomWarp/spr_RoomWarp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_blocker","path":"sprites/spr_blocker/spr_blocker.yy",},
+    "parent": {"name":"spr_RoomWarp","path":"sprites/spr_RoomWarp/spr_RoomWarp.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_blocker",
+    "name": "spr_RoomWarp",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8392c2e7-83fb-4dda-81b3-415616325433","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8e46a5d1-e17f-4059-bbcc-8b825a12a10f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Walls & Paths.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_blocker",
+  "name": "spr_RoomWarp",
   "tags": [],
   "resourceType": "GMSprite",
 }
