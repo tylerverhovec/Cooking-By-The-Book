@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_RoomWarp",
-    "path": "sprites/spr_RoomWarp/spr_RoomWarp.yy",
+    "name": "spr_StartBossTrigger",
+    "path": "sprites/spr_StartBossTrigger/spr_StartBossTrigger.yy",
   },
   "solid": false,
   "visible": false,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls & Paths",
-    "path": "folders/Objects/Walls & Paths.yy",
+    "name": "Triggers",
+    "path": "folders/Objects/Triggers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_RoomWarp",
+  "name": "obj_StartBossTrigger",
   "tags": [],
   "resourceType": "GMObject",
 }
