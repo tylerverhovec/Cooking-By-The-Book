@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Cheese",
+    "path": "sprites/spr_Cheese/spr_Cheese.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

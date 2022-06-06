@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Vegetables",
+    "path": "sprites/spr_Vegetables/spr_Vegetables.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
