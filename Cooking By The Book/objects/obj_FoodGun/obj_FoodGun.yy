@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Bread",
-    "path": "sprites/spr_Bread/spr_Bread.yy",
+    "name": "spr_FoodGun",
+    "path": "sprites/spr_FoodGun/spr_FoodGun.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ingredients",
-    "path": "folders/Objects/Food/Ingredients.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Bread",
+  "name": "obj_FoodGun",
   "tags": [],
   "resourceType": "GMObject",
 }
