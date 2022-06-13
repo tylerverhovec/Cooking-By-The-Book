@@ -13,4 +13,5 @@ hasMeat = false;
 hasVegetables = false;
 
 //Meals
-hasBurger = false;
+hasMeal = false;
+meal = noone;

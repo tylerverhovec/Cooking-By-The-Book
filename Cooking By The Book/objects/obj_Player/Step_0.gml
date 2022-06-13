@@ -1,4 +1,4 @@
-///@desc
+///@desc Control Player Actions
 
 //Resets keys every step incase the player stops moving
 key_up = 0;
@@ -6,12 +6,13 @@ key_down = 0;
 key_left = 0;
 key_right = 0;
 
-//Changes the key values if the player is pressing a movement key
+//Changes the key values if the player is pressing a key/mouse input
 key_up = -keyboard_check(ord("W"));
 key_down = keyboard_check(ord("S"));
 key_left = -keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_pickUp = keyboard_check_pressed(ord("E"));
+mouse_cook = mouse_check_button(mb_right);
 
 //Process potential movement
 hsp = (key_left + key_right) * moveSpeed;
@@ -40,4 +41,17 @@ if (place_meeting(x, y + vsp, obj_blocker))
 }
 y += vsp;
 
+//Manage time needed to cook
+//Raise time player has been cooking if right mouse button is down
+//Reset timer if button is let go
+if (numHeld == capacity && !playerHasMeal && mouse_cook){
+	timeHaveBeenCooking++;
+}
+else{
+	timeHaveBeenCooking = 0;
+}
 
+//If a meal has been cooked, notify the FoodManager
+if ((timeHaveBeenCooking / room_speed) >= (timeToCook / room_speed)){
+	FoodManager.hasMeal = true;
+}	
