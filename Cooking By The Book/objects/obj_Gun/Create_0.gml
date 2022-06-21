@@ -1,5 +1,11 @@
 ///@desc Declare & Initialize Variables
 
-//If the player is holding the weapon on their left/right side
-holdingLeft = true; //Left side
-holdingRight = false; //Right side
+firingDelay = 0;
+framesTilNextShot = 20;
+
+//Distances from sprite origin to tip of barrel
+gunOffsetX = 75;
+gunOffsetY = -4;
+
+gunDirection = point_direction(0, 0, gunOffsetX, gunOffsetY);
+gunLength = point_distance(0, 0, gunOffsetX, gunOffsetY);

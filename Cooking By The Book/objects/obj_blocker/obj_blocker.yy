@@ -30,7 +30,7 @@
     "path": "folders/Objects/Walls & Paths.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_blocker",
+  "name": "obj_Blocker",
   "tags": [],
   "resourceType": "GMObject",
 }
